@@ -11,7 +11,6 @@ default
     {    
     llVolumeDetect(TRUE);
     llListen(channel,"","","");
-    llSetLinkTextureAnim(2, ANIM_ON | SMOOTH | ROTATE | LOOP, ALL_SIDES,1,1,0, TWO_PI,0.3*TWO_PI);
     }
     touch_start(integer total_number)
     {
